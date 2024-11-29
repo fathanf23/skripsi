@@ -10,7 +10,7 @@
     <p><strong>Ulasan:</strong> {{ $inputText }}</p>
     <p><strong>Sentimen:</strong> {{ ucfirst($prediction) }}</p>
 
-    <a href="{{ route('sentiment.form') }}">Kembali</a>
-    <a href="{{ route('sentiments.index') }}">lihat semua ulasan</a>
+    <a href="{{ route('sentiment') }}">Kembali</a>
+    <a href="{{ route('index') }}">lihat semua ulasan</a>
 </body>
 </html>
